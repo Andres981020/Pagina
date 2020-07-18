@@ -1,0 +1,27 @@
+body{
+    background-color: #89C5F9;
+}
+
+.caja{
+    padding: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    color: #000000;
+}
+
+#alineacion{
+    text-align: center;
+}
+
+@media only screen and(min-width:768px) and (max-width:940px){
+    .caja{
+        width:600px;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:767px){
+    .caja{
+        width: 600px;
+    }
+}
